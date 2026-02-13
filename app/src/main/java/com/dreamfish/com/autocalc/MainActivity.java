@@ -186,13 +186,13 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.action_exit:
                     finish();
                     break;
-                case R.id.action_help:
+                case -1: // removed help
                     CommonDialogs.showHelp(this);
                     break;
                 case R.id.action_settings:
                     CommonDialogs.showSettings(this);
                     break;
-                case R.id.action_show_full:
+                case -4: // removed show full
                     fragmentMain.showFullText();
                     break;
                 case R.id.action_show_functions:
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.action_custom_input:
                     fragmentMain.showCustomerView();
                     break;
-                case R.id.action_show_calc_step:
+                case -3: // removed calc step
                     fragmentMain.showCalcStep();
                     break;
             }

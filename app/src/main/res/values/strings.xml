@@ -1,50 +1,43 @@
 <resources>
     <string name="app_name">AutoCalc</string>
-    <string name="app_description">آلة حاسبة أندرويد بسيطة للغاية</string>
-    <string name="app_version">V1.3.Dev-0517</string>
-    <string name="app_copyright">© 2020 بواسطة 梦欤</string>
-    <string name="app_description_long">هذه آلة حاسبة أندرويد بسيطة للغاية، وهي عمل تعليمي لـ 梦欤</string>
+    <string name="app_description">حاسبة أندرويد بسيطة للغاية</string>
+    <string name="app_version">2026</string>
+    <string name="app_copyright">© 2026 بواسطة Hamo</string>
+    <string name="app_description_long">هذه حاسبة أندرويد بسيطة للغاية، وهي عمل تعليمي من Hamo</string>
 
-    <string name="action_about">حول</string>
-    <string name="action_exit">خروج من البرنامج</string>
-    <string name="action_help">مساعدة</string>
-    <string name="action_back">عودة</string>
-    <string name="action_settings">الإعدادات</string>
+    <string name="action_exit">خروج</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_settings">إعدادات</string>
     <string name="action_close">إغلاق</string>
-    <string name="action_show_functions">عرض جميع الدوال</string>
-    <string name="action_show_calc_step">عرض خطوات الحساب</string>
-    <string name="action_retry">حاول مرة أخرى</string>
+    <string name="action_show_functions">عرض كافة الدوال</string>
+    <string name="action_retry">إعادة المحاولة</string>
 
     <string name="action_choose_mode">اختر الوضع</string>
     <string name="action_ok">موافق</string>
     <string name="action_cancel">إلغاء</string>
 
     <string name="text_zero">0</string>
-    <string name="text_help_top">يمكنك مشاهدة كود المصدر لهذه الآلة الحاسبة على Github الخاص بي. يمكنك الضغط على "القائمة"&gt;"مساعدة" لمعرفة المزيد من المعلومات.</string>
 
     <string name="text_dec">عشري</string>
     <string name="text_oct">ثماني</string>
     <string name="text_bin">ثنائي</string>
-    <string name="text_hex">سداسي عشري</string>
+    <string name="text_hex">ست عشري</string>
 
-    <string name="text_please_open_record_step">يجب عليك أولاً تفعيل "تسجيل خطوات الحساب" في الإعدادات لرؤية خطوات الحساب للصيغة الحالية</string>
-
-    <string name="text_history_cleared">تم مسح كل السجلات التاريخية</string>
+    <string name="text_history_cleared">تم مسح كافة السجلات التاريخية</string>
     <string name="text_error">خطأ</string>
-    <string name="text_auto_bc_error">القيمة العددية خارج نطاق الحساب</string>
+    <string name="text_auto_bc_error">القيمة خارج نطاق الحساب</string>
     <string name="text_out_of_range">خارج النطاق</string>
-    <string name="text_use_deg">يتم استخدام النظام الزاوي الحالي بالدرجات</string>
-    <string name="text_use_rad">يتم استخدام النظام الزاوي الحالي بالراديان</string>
+    <string name="text_use_deg">يتم استخدام نظام الدرجات حالياً</string>
+    <string name="text_use_rad">يتم استخدام نظام الراديان حالياً</string>
     <string name="text_please_choose">يرجى الاختيار</string>
 
     <string name="text_none">لا توجد بيانات</string>
-    <string name="text_none_calc_step">لا توجد خطوات حساب حالياً، يمكنك إدخال الحساب ثم عرض خطوات الحساب</string>
     <string name="text_i_new">فهمت</string>
-    <string name="text_mode_normal">عادي</string>
+    <string name="text_mode_normal">قياسي</string>
     <string name="text_mode_expand">علمي</string>
     <string name="text_mode_programmer">مبرمج</string>
-    <string name="text_mode_date_calc">حساب فرق التواريخ</string>
-    <string name="text_mode_conversion">تحويل</string>
+    <string name="text_mode_date_calc">حساب فرق التاريخ</string>
+    <string name="text_mode_conversion">تحويل الوحدات</string>
 
 
     <string name="text_same_day">نفس اليوم</string>
@@ -59,115 +52,72 @@
     <string name="text_day">يوم</string>
     <string name="text_month">شهر</string>
     <string name="text_year">سنة</string>
-    <string name="text_date">تاريخ</string>
-    <string name="text_time">وقت</string>
+    <string name="text_date">التاريخ</string>
+    <string name="text_time">الوقت</string>
     <string name="text_start_date">تاريخ البدء</string>
     <string name="text_end_date">تاريخ الانتهاء</string>
     <string name="text_result_date">تاريخ النتيجة</string>
-    <string name="text_days_between">عدد الأيام بين التاريخين</string>
+    <string name="text_days_between">الأيام الفاصلة</string>
     <string name="text_time_between">الوقت الفاصل</string>
     <string name="text_please_choose_date">يرجى اختيار التاريخ</string>
-    <string name="text_date_diff">حساب فرق التاريخ</string>
+    <string name="text_date_diff">حساب فاصل التاريخ</string>
     <string name="text_addsub_date">إضافة أو طرح أيام</string>
 
     <string name="text_choose_unit">اختر الوحدة</string>
     <string name="text_dot">.</string>
-    <string name="text_title">عنوان</string>
+    <string name="text_title">العنوان</string>
     <string name="text_more">المزيد</string>
     <string name="text_clear">مسح</string>
-    <string name="text_show_full">عرض كامل</string>
 
-    <string name="text_calculator">آلة حاسبة</string>
-    <string name="text_converter">محول</string>
-    <string name="text_calculator_mode">{0} آلة حاسبة</string>
+    <string name="text_calculator">الحاسبة</string>
+    <string name="text_converter">المحول</string>
+    <string name="text_calculator_mode">حاسبة {0}</string>
 
-    <string name="text_text_too_long">النص طويل جداً ولا يمكن عرضه، يرجى الضغط على القائمة > عرض كامل</string>
-    <string name="text_click_to_input_function">يمكنك النقر على دالة لإدخالها</string>
-    <string name="text_custom_input">يمكنك إدخال الصيغ يدوياً للحساب، مثل 1 + 2 * 16 + cos(pi)</string>
-    <string name="text_help_1">هذا الحساب حساس جداً للصيغة، يجب أن يكون تنسيق الصيغة صحيحاً عند الإدخال، ولا تنس أي قوس</string>
+    <string name="text_click_to_input_function">يمكنك النقر فوق دالة لإدخالها</string>
+    <string name="text_custom_input">يمكنك إدخال الصيغة يدوياً للحساب، مثل 1 + 2 * 16 + cos(pi)</string>
 
-    <string name="title_activity_about">حول AutoCalc</string>
-    <string name="title_activity_help">مساعدة AutoCalc</string>
     <string name="title_activity_settings">الإعدادات</string>
     <string name="title_activity_date_range">حساب فرق التاريخ</string>
     <string name="title_to_converter">تحويل</string>
-    <string name="title_full_text">النص الكامل</string>
-    <string name="title_reminder">تذكير</string>
+    <string name="title_reminder">تنبيه</string>
 
-    <string name="title_show_functions">جميع الدوال</string>
-    <string name="title_custom_input">إدخال الصيغ يدوياً</string>
-    <string name="title_help">مساعدة مختصرة لـ AutoCalc</string>
+    <string name="title_show_functions">كافة الدوال</string>
+    <string name="title_custom_input">إدخال الصيغة يدوياً</string>
     <string name="title_choose_mode">اختر الوضع</string>
-    <string name="title_calc_exception">عذراً! حدث استثناء في وحدة الحساب</string>
-    <string name="title_calc_step">خطوات الحساب للصيغة الحالية</string>
+    <string name="title_calc_exception">عذراً! حدث خطأ في وحدة الحساب</string>
 
     <!-- Preference Titles -->
     <string name="settings_general_header">عام</string>
     <string name="settings_others_header">أخرى</string>
-    <string name="settings_about_header">حول</string>
 
     <!-- Preferences -->
     <string name="settings_key_history_count">عدد سجلات الحساب المحفوظة</string>
-    <string name="settings_key_vibrator">اهتزاز عند لمس الأزرار</string>
-    <string name="settings_key_free_input">تفعيل وضع الإدخال الحر</string>
-    <string name="settings_key_free_input_summary">وضع الإدخال الحر يسمح لك بإدخال صيغ معقدة، ولكن يحتاج أن تكون صيغة الحساب صحيحة</string>
+    <string name="settings_key_vibrator">اهتزاز اللمس</string>
+    <string name="settings_key_free_input">تمكين وضع الإدخال الحر</string>
+    <string name="settings_key_free_input_summary">يسمح لك وضع الإدخال الحر بإدخال الصيغ بحرية وحساب صيغ أكثر تعقيداً، ولكن يتطلب إدخالاً صحيحاً</string>
     <string name="settings_key_computation_accuracy">دقة الحساب</string>
-    <string name="settings_key_computation_accuracy_summary">يُستخدم فقط في العمليات الحسابية الأربع</string>
-    <string name="settings_key_auto_scientific_notation">استخدام التدوين العلمي تلقائياً للأعداد الكبيرة</string>
-    <string name="settings_key_scientific_notation_max">حجم البدء التلقائي للتدوين العلمي</string>
-    <string name="settings_key_record_step">تسجيل خطوات الحساب</string>
-    <string name="settings_key_record_step_summary">بالتفعيل يمكن عرض خطوات الحساب للصيغة الحالية، يمكنك عرضها من الأزرار العلوية</string>
-    <string name="settings_key_auto_update">فحص التحديثات تلقائياً</string>
-    <string name="settings_key_version">الإصدار الحالي، انقر هنا لفحص التحديث</string>
-    <string name="settings_key_about">حول البرنامج</string>
+    <string name="settings_key_computation_accuracy_summary">يستخدم فقط للعمليات الحسابية الأربع</string>
+    <string name="settings_key_auto_scientific_notation">استخدام الترميز العلمي للقيم الكبيرة جداً</string>
+    <string name="settings_key_scientific_notation_max">بداية الترميز العلمي التلقائي</string>
+    <string name="settings_key_auto_update">التحقق التلقائي من التحديثات</string>
+    <string name="settings_key_check_update">التحقق من التحديثات</string>
 
-    <string name="settings_key_privacy_policy">سياسة الخصوصية واتفاقية الترخيص</string>
-    <string name="settings_key_check_update">فحص التحديث</string>
-
-    <string name="text_update_rate_failed">فشل في الحصول على سعر الصرف عبر الإنترنت!<br />{0}</string>
-    <string name="text_update_rate_success">تم تحديث سعر الصرف عبر الإنترنت بنجاح! {0}</string>
-    <string name="text_updating_rate">يتم طلب بيانات سعر الصرف<br />يرجى الانتظار</string>
-    <string name="text_check_update">جارٍ فحص التحديث، يرجى الانتظار</string>
-    <string name="text_check_update_failed">فشل فحص التحديث، يرجى التحقق من الشبكة ثم المحاولة مرة أخرى</string>
-    <string name="text_new_update">يتوفر إصدار جديد للبرنامج، هل تريد التحديث؟</string>
-    <string name="text_latest">إصدار برنامجك هو الأحدث</string>
-    <string name="text_update_to_latest">تحديث إلى الإصدار الأحدث</string>
-    <string name="text_do_not_update">عدم التحديث الآن</string>
-    <string name="text_continue_update">تحديث مع الاستمرار</string>
+    <string name="text_update_rate_failed">فشل الحصول على أسعار الصرف!<br />{0}</string>
+    <string name="text_update_rate_success">تم تحديث أسعار الصرف بنجاح! {0}</string>
+    <string name="text_updating_rate">جاري طلب بيانات أسعار الصرف<br />يرجى الانتظار</string>
+    <string name="text_check_update">جاري التحقق من التحديثات، يرجى الانتظار</string>
+    <string name="text_check_update_failed">فشل التحقق من التحديثات، يرجى التحقق من الشبكة والمحاولة مرة أخرى</string>
+    <string name="text_new_update">هناك إصدار جديد متاح، هل تريد التحديث؟</string>
+    <string name="text_latest">إصدار البرنامج الخاص بك هو الأحدث</string>
+    <string name="text_update_to_latest">التحديث إلى أحدث إصدار</string>
+    <string name="text_do_not_update">ليس الآن</string>
+    <string name="text_continue_update">الاستمرار في التحديث</string>
     <string name="text_new_ver">الإصدار الجديد:</string>
-    <string name="text_downloading_update">يرجى الانتظار، يجري تنزيل التحديث وسيتم تثبيته لاحقاً</string>
-    <string name="text_no_network">يبدو أنه لا يوجد اتصال بالشبكة حالياً، يرجى الاتصال ثم المحاولة</string>
-    <string name="text_in_mobile_network">أنت حالياً على شبكة بيانات متنقلة، قد يتكبد رسوم بيانات، هل تريد المتابعة؟</string>
+    <string name="text_downloading_update">يرجى الانتظار، جاري تحميل التحديث، سيتم التثبيت قريباً</string>
+    <string name="text_no_network">يبدو أنك غير متصل بالإنترنت، يرجى الاتصال والمحاولة مرة أخرى</string>
+    <string name="text_in_mobile_network">أنت تستخدم شبكة الهاتف المحمول، قد يتم فرض رسوم بيانات، هل تريد الاستمرار؟</string>
     <string name="text_downloading_update_title">تحديث AutoCalc</string>
-    <string name="text_update_rate"><u>تحديث سعر الصرف</u></string>
-    <string name="text_rate_updated_at">تم تحديث بيانات سعر الصرف في </string>
-
-    <!-- agreement -->
-    <string name="text_agreement_base_welecome">
-        مرحباً بك في استخدام AutoCalc!
-        \nAutoCalc تولي اهتماماً كبيراً لخصوصيتك وحماية معلوماتك الشخصية.
-        \nقبل استخدام AutoCalc، يرجى قراءة بعناية <a href="https://imengyu.top/linkJump/?to=autocalc_argeement">"اتفاقية المستخدم"</a> و <a href="https://imengyu.top/linkJump/?to=privacy_policy">"سياسة الخصوصية"</a>، ولا يمكنك البدء في استخدام "AutoCalc" إلا إذا وافقت على جميع الشروط.
-        \nبالإضافة إلى ذلك، من أجل تحسين استخدام وظائف المنتج، نحتاج إلى طلب إذنك للحصول على الأذونات التالية:
-    </string>
-    <string name="text_agreement_base"><a href="https://imengyu.top/linkJump/?to=autocalc_argeement">"اتفاقية المستخدم"</a>\n<a href="https://imengyu.top/linkJump/?to=privacy_policy">"سياسة الخصوصية"</a>
-        \n\nلتحسين استخدام وظائف المنتج، يطلب التطبيق أيضاً إذنك للحصول على الأذونات التالية:
-    </string>
-
-    <string name="text_agreement_devinfo">معلومات الجهاز</string>
-    <string name="text_agreement_devinfo_sub">بما في ذلك معرّف الجهاز/حجم الشاشة/نظام التشغيل/نموذج الجهاز/نمط اتصال الشبكة/رمز الدولة للاتصال المتنقل/دقة الشاشة ولغة النظام؛ تُستخدم لتوفير وظائف وتجارب مختلفة حسب الأجهزة وأنظمة التشغيل، والحصول على معلومات استخدام المنتج والأخطاء، ومساعدتنا في تحسين وظائف المنتج والتجربة باستمرار.</string>
-
-    <string name="text_agreement_interenet">الشبكة</string>
-    <string name="text_agreement_interenet_sub">
-        بما في ذلك عنوان IP؛ نحتاج إلى الاتصال بالإنترنت لتنزيل بيانات الحساب؛ وأيضاً لمساعدتنا في إحصاء استخدام المنتج، والإبلاغ عن أخطاء المنتج، ومساعدتنا في تحسين وظائف المنتج وتجربته باستمرار.
-    </string>
-
-    <string name="text_agreement_write_storage">قراءة وكتابة التخزين</string>
-    <string name="text_agreement_write_storage_sub">
-        نحن بحاجة إلى الكتابة المؤقتة لبيانات البرنامج، وذاكرة التخزين المؤقت للحساب، وما إلى ذلك.
-    </string>
-
-    <string name="text_agreement_lost">إذا لم توافق أو رفضت منح هذه الأذونات، فلن تتمكن من استخدام بعض أو كل وظائف التطبيق.</string>
-    <string name="text_agreement_allow">موافقة والمتابعة</string>
-    <string name="text_agreement_not_allow">عدم الموافقة والخروج</string>
+    <string name="text_update_rate"><u>تحديث أسعار الصرف</u></string>
+    <string name="text_rate_updated_at">تم تحديث أسعار الصرف في </string>
 
 </resources>
