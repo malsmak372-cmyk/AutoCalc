@@ -209,21 +209,21 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //退出提示
+    //
     private long mExitTime;
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-        //首先判断用户有没有按下返回键
+        //
         if (keyCode== KeyEvent.KEYCODE_BACK){
-            //判断用户按下的时间是不是大于2秒，如果大于2秒则认为是失误操作
+            //2，2
             if ((System.currentTimeMillis()-mExitTime)>2000){
-                Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
-                mExitTime=System.currentTimeMillis();//记住当前时间，下次再按返回键时做对比
+                Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+                mExitTime=System.currentTimeMillis();//，
             }else {
                 finish();
             }
-            return true;//返回true不在往下运行
+            return true;//true
         }
         return super.onKeyDown(keyCode, event);
     }
